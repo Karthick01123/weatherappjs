@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(#74ebd5, #ACB6E5);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    transition: background 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+  
+  input, select {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 5px;
+  }
+  
+  .weather-box {
+    margin-top: 20px;
+  }
+  
+  #recentSearches {
+    margin-top: 10px;
+  }
+  
+  #recentSearches span {
+    background: #ccc;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+  }
+  
